@@ -1,6 +1,6 @@
 {
-  "name": "donutdan4114/shopify",
-  "description": "Shopify PHP SDK to interact with the Shopify API.",
+  "name": "bogdan-lapadat-p2c/shopify-dependency-lib",
+  "description": "SDK to interact with the Shopify API for use by Plentymarkets. Original code is donutdan4114/shopify",
   "require": {
     "guzzlehttp/guzzle": "~6.0",
     "php": ">=5.5.0"
@@ -13,8 +13,11 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Daniel Pepin",
-      "email": "donutdan4114@gmail.com"
+      "name": "Daniel Pepin"
+    },
+    {
+      "name": "Bogdan Lapadat",
+      "email": "bogdan.lapadat@plentymarkets.com"
     }
   ]
 }
