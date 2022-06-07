@@ -5,8 +5,8 @@ namespace Shopify;
 class ClientException extends \Exception {
 
   private $client;
-
-  public function __construct($message = "", $code = 0, \Exception $previous = NULL, Client $client) {
+  
+  public function __construct($message = "", $code = 0, \Exception $previous = NULL, Client $client = NULL) {
     $this->client = $client;
     parent::__construct($message, $code, $previous);
   }
